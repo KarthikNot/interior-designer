@@ -22,6 +22,7 @@ def generate_image(style :str, room_type : str, object_input : str, details : st
         model="stabilityai/stable-diffusion-xl-base-1.0"
     )
 
+    os.makedirs('./src/static/', exist_ok=True)
     if image:
         image.save('./src/static/generated_image.png')
     else:
