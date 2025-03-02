@@ -1,5 +1,7 @@
 # <center> AI Interior Designer <center>
 
+# READ THE LICENSE AND USE THIS PROJECT.
+
 ## How to Set Up This Project 🛠️
 
 This guide walks you through setting up the project's environment.
@@ -58,7 +60,7 @@ pip install -r requirements.txt
 
 1. Create a .env file.
 2. add a env variable "TOGETHER_API_KEY" in the .env file.  
-    Example of a sample API KEY
+   Example of a sample API KEY
 
 ```bash
 TOGETHER_API_KEY = "<API_KEY>"
@@ -68,6 +70,6 @@ TOGETHER_API_KEY = "<API_KEY>"
 
 - After installing the required dependencies, run the following command to start the project locally:
 
-``` bash
+```bash
 streamlit run ./src/server.py
 ```
