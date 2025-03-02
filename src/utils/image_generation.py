@@ -5,7 +5,7 @@ from huggingface_hub import InferenceClient
 
 # Load API key securely
 load_dotenv()
-API_KEY = os.getenv("STABILITY_AI_KEY")  # Store in a .env file or set as an environment variable
+API_KEY = os.getenv("TOGETHER_API_KEY")  # Store in a .env file or set as an environment variable
 
 
 def generate_image(style :str, room_type : str, object_input : str, details : str):
