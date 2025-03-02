@@ -1,4 +1,4 @@
-# <center> AI INterior Designer <center>
+# <center> AI Interior Designer <center>
 
 ## How to Set Up This Project 🛠️
 
